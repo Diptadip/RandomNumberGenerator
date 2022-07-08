@@ -16,6 +16,6 @@ int main(){
 int randomNumberGen(int* lb,int* ub){
     int i; //garbage value is not so garbage
     i%=*ub; //making i at most equal to upper bound
-    i+=*lb; // making i at least equal to lower bound
+    i+=*lb; // making i  at least equal to lower bound
     return i;
 }
